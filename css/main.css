@@ -1,0 +1,17 @@
+body {
+  font-family: "Public Sans";
+}
+
+h1 {
+  font-family: "DM Serif Display";
+}
+
+h2 {
+  font-family: "DM Serif Display";
+}
+
+@media only screen and (max-width: 639px) {
+  .link {
+    display: none;
+  }
+}

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payapi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="bg-[#EDF3F8]">
+    <header class="pt-[40px] mb-[44px]">
+      <div
+        class="px-[10px] xl: container mx-auto flex items-center justify-between"
+      >
+        <nav class="flex items-center gap-[64px]">
+          <a href="#"><img src="images/logo__header.svg" alt="logo" /></a>
+          <ul class="sm:flex gap-[40px] items-center hidden">
+            <li>
+              <a
+                class="text-[#36536B] font-[700] leading-[18px] text-[15px] opacity-[0.7] hover:opacity-[1] hover:duration-500"
+                href="#"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#36536B] font-[700] leading-[18px] text-[15px] opacity-[0.7] hover:opacity-[1] hover:duration-500"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#36536B] font-[700] leading-[18px] text-[15px] opacity-[0.7] hover:opacity-[1] hover:duration-500"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <img
+          class="hamburger sm:hidden"
+          src="images/hamburger.svg"
+          alt="hamburger"
+        />
+        <a
+          class="link font-[700] font-['Public Sans'] text-[#FBFCFE] leading-[18px] tracking-[-0.115385px] text-[15px] bg-[#BA4270] rounded-[24px] py-[16px] pb-[14px] pl-[26.5px] pr-[24.5px] shadow-md shadow-[#36536B40] hover:bg-[#DA6D97] hover:duration-500"
+          href="#"
+          >Schedule a Demo</a
+        >
+      </div>
+    </header>
+    <main>
+      <section
+        class="hero mb-[75px] lg:bg-[url('images/hero__bg-desktop.svg')] bg-no-repeat lg:bg-right-top max-lg:bg-[url('images/hero__bg-tablet.svg')] max-lg:bg-top max-sm:bg-[url('images/hero__bg-mobile.svg')]"
+      >
+        <div
+          class="px-[10px] xl:container mx-auto flex items-center justify-between max-lg:flex-col-reverse max-lg:text-center"
+        >
+          <div class="hero__left max-w-[546px]">
+            <h1
+              class="text-[#36536B] leading-[72px] text-[72px] tracking-[-0.553846px] mb-[30px] max-lg:text-[48px] max-lg:leading-[56px] max-lg:tracking-[-0.369231px] max-lg:mb-[22px] max-sm:text-[32px] max-sm:leading-[36px] max-sm:tracking-[-0.246154px]"
+            >
+              Start building with our APIs for absolutely free.
+            </h1>
+            <form class="mb-[16px]">
+              <input
+                class="bg-[#FBFCFE] rounded-[24px] text-black font-bold text-[15px] ledaing-[18px] opacity-[0.5] pt-[16px] pb-[14px] pl-[27px] pr-[90px] shadow-md shadow-[#36536B40] hover:cursor-pointer max-sm:mb-4"
+                placeholder="Enter email address"
+                required
+                type="email"
+              />
+              <button
+                class="text-[#FBFCFE] font-bold text-[15px] ledaing-[18px] tracking-[-0.115385px] bg-[#BA4270] rounded-[24px] pt-[16px] pb-[14px] pl-[26.5px] pr-[24.5px] translate-x-[-40px] shadow-md shadow-[#36536B40] hover:bg-[#DA6D97] max-sm:translate-x-0 max-sm: hover:duration-500"
+                type="submit"
+              >
+                Schedule a Demo
+              </button>
+            </form>
+            <a
+              class="text-[#6C8294] opacity-70 font-normal leading-[17.63px] pl-[27px] max-lg:p-0"
+              href="#"
+              >Have any questions?
+              <span class="font-bold opacity-100">Contact Us</span></a
+            >
+          </div>
+          <div class="hero__right">
+            <picture>
+              <source
+                srcset="images/hero__phone-desktop.svg"
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="images/hero__phone-mobile.svg"
+                media="(max-width:640px)"
+              />
+              <img src="images/hero__phone-tablet.svg" alt="phone" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section
+        class="partners mb-[150px] bg-[#1B262F] lg:bg-[url(images/partners__bg-desktop.svg)] bg-no-repeat max-lg:bg-[url(images/partners__bg-tablet.svg)] max-lg:bg-top max-sm:[url(images/partners__bg-mobile.svg)] max-sm:bg-top"
+      >
+        <div
+          class="px-3 xl:container mx-auto py-[100px] flex justify-between items-center max-lg:flex-col-reverse max-lg:py-[88px] max-lg:text-center max-sm:py-20"
+        >
+          <div class="partners__left max-w-[445px] text-[#FBFCFE]">
+            <h2 class="mb-6 text-[48px] leading-[56px] tracking-[-0.369231px]">
+              Who we work with
+            </h2>
+            <p class="font-normal opacity-70 leading-7 text-[15px] mb-8">
+              Today, millions of people around the world have successfully
+              connected their accounts to apps they love using our API. We
+              provide developers with the tools they need to create easy and
+              accessible experiences for their users.
+            </p>
+            <a
+              class="text-[15px] leading-[18px] tracking-[-0.115385px] font-bold border rounded-3xl pt-4 pb-[14px] text-center hover:bg-white hover:text-black block max-w-[129px] max-lg:mx-auto"
+              href="#"
+              >About Us</a
+            >
+          </div>
+          <div
+            class="partners__right flex flex-wrap max-w-[536px] max-lg:mb-16 max-sm:max-w-[280px]"
+          >
+            <img
+              class="max-sm:hidden sm:mr-[62px] sm:mb-[46px]"
+              src="images/tesla__desktop.svg"
+              alt="tesla"
+            />
+            <img
+              class="sm:hidden max-sm:mr-[50px] max-sm:mb-[44px]"
+              src="images/tesla__mobile.svg"
+              alt="tesla"
+            />
+            <img
+              class="max-sm:hidden sm:mr-[60px] sm:mb-[39px]"
+              src="images/microsoft__desktop.svg"
+              alt="microsoft"
+            />
+            <img
+              class="sm:hidden max-sm:mb-[39px]"
+              src="images/microsoft__mobile.svg"
+              alt="microsoft"
+            />
+            <img
+              class="max-sm:hidden sm:mb-[41px]"
+              src="images/hp__desktop.svg"
+              alt="hp"
+            />
+            <img
+              class="sm:hidden max-sm:mr-[56px] max-sm:mb-[40px]"
+              src="images/hp__mobile.svg"
+              alt="hp"
+            />
+            <img
+              class="max-sm:hidden sm:mr-[85px]"
+              src="images/dracle__desktop.svg"
+              alt="dracle"
+            />
+            <img
+              class="sm:hidden max-sm:mb-[45px]"
+              src="images/dracle__mobile.svg"
+              alt="dracle"
+            />
+            <img
+              class="max-sm:hidden sm:mr-[87px]"
+              src="images/google__desktop.svg"
+              alt="google"
+            />
+            <img
+              class="sm:hidden max-sm:mr-[71px]"
+              src="images/google__mobile.svg"
+              alt="google"
+            />
+            <img
+              class="max-sm:hidden"
+              src="images/nvidia__desktop.svg"
+              alt="nvidia"
+            />
+            <img
+              class="sm:hidden"
+              src="images/nvidia__mobile.svg"
+              alt="nvidia"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="coding mb-[150px]">
+        <div
+          class="xl:container mx-auto flex lg:gap-[131px] items-center lg:p-0 max-lg:flex-col max-lg:text-center max-lg:px-3"
+        >
+          <div class="coding__left">
+            <picture>
+              <source
+                media="(min-width:1024px)"
+                srcset="images/codes__desktop.svg"
+              />
+              <source
+                media="(max-width:640px)"
+                srcset="images/codes__mobile.svg"
+              />
+              <img src="images/codes__tablet.svg" alt="codes" />
+            </picture>
+          </div>
+          <div class="coding__right max-w-[445px]">
+            <h2
+              class="text-[#36536B] mb-6 text-[48px] leading-[56px] tracking-[-0.369231px] max-sm:text-[36px] max-sm:leading-9 max-sm:tracking-[-0.276923px]"
+            >
+              Easy to implement
+            </h2>
+            <p class="text-[#6C8294] text-[15px] leading-7 font-normal">
+              Our API comes with just a few lines of code. You’ll be up and
+              running in no time. We built our documentation page to integrate
+              payments functionality with ease.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="comforts">
+        <div
+          class="xl:container mx-auto max-lg:px-3 flex items-center justify-between max-lg:flex-col-reverse max-lg:text-center mb-[70px]"
+        >
+          <div class="comforts__left max-w-[445px]">
+            <h2
+              class="text-[#36536B] text-[48px] leading-[56px] tracking-[-0.369231px] mb-6 max-sm:text-[36px] max-sm:leading-9 max-sm:tracking-[-0.276923px]"
+            >
+              Simple UI & UX
+            </h2>
+            <p class="text-[15px] leading-7 text-[#6C8294]">
+              Our pre-built form is easy to integrate in your app or website’s
+              checkout flow and designed to optimize conversion.
+            </p>
+          </div>
+          <div class="comforts__right">
+            <picture>
+              <source
+                media="(min-width:1024px)"
+                src="images/comforts__desktop.svg"
+              />
+              <source
+                media="(max-width:640px)"
+                src="images/comforts__mobile.svg"
+              />
+              <img src="images/comforts__tablet.svg" alt="phones" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="benefits mb-24">
+        <div
+          class="xl:container px-3 mx-auto flex justify-between text-center items-center max-sm:flex-col"
+        >
+          <div class="benefits__finance max-w-[350px] max-sm:mb-10">
+            <img
+              class="mb-8 inline-block"
+              src="images/finance__desktop.svg"
+              alt="finance"
+            />
+            <h3
+              class="font-bold text-[#36536B] text-[18px] leading-[25px] tracking-[-0.138462px] mb-4"
+            >
+              Personal Finances
+            </h3>
+            <p
+              class="text-15px text-[#6C8294] leading-[25px] tracking-[-0.115385px]"
+            >
+              Consolidate financial data from multiple sources and categorize
+              transactions up to 2 years of history. Analyze reports to
+              reconcile activities in your account.
+            </p>
+          </div>
+          <div class="benefits__coverage max-w-[350px] max-sm:mb-10">
+            <img
+              class="mb-8 inline-block"
+              src="images/coverage__desktop.svg"
+              alt="finance"
+            />
+            <h3
+              class="font-bold text-[#36536B] text-[18px] leading-[25px] tracking-[-0.138462px] mb-4"
+            >
+              Banking & Coverage
+            </h3>
+            <p
+              class="text-15px text-[#6C8294] leading-[25px] tracking-[-0.115385px]"
+            >
+              With our platform, you can speed up account onboarding and support
+              ongoing payments for checking, savings, credit card, and brokerage
+              accounts.
+            </p>
+          </div>
+          <div class="benefits__payments max-w-[350px]">
+            <img
+              class="mb-8 inline-block"
+              src="images/payments__desktop.svg"
+              alt="finance"
+            />
+            <h3
+              class="font-bold text-[#36536B] text-[18px] leading-[25px] tracking-[-0.138462px] mb-4"
+            >
+              Consumer Payments
+            </h3>
+            <p
+              class="text-15px text-[#6C8294] leading-[25px] tracking-[-0.115385px]"
+            >
+              It’s easier to set up secure bank payments with us through a flow
+              designed with the user experience in mind. Customers could
+              instantly authenticate their account.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="questions mb-24">
+        <div
+          class="xl:container p-3 mx-auto flex justify-between items-center max-lg:flex-col max-lg:text-center"
+        >
+          <h2
+            class="text-[48px] text-[#36536B] leading-[56px] tracking-[-0.369231px] max-lg:mb-10"
+          >
+            Ready to start?
+          </h2>
+          <form>
+            <input
+              class="bg-[#FBFCFE] rounded-[24px] text-black font-bold text-[15px] ledaing-[18px] opacity-[0.5] pt-[16px] pb-[14px] pl-[27px] pr-[90px] shadow-md shadow-[#36536B40] hover:cursor-pointer max-sm:mb-4"
+              placeholder="Enter email address"
+              required
+              type="email"
+            />
+            <button
+              class="text-[#FBFCFE] font-bold text-[15px] ledaing-[18px] tracking-[-0.115385px] bg-[#BA4270] rounded-[24px] pt-[16px] pb-[14px] pl-[26.5px] pr-[24.5px] translate-x-[-40px] shadow-md shadow-[#36536B40] hover:bg-[#DA6D97] max-sm:translate-x-0 hover:duration-500"
+              type="submit"
+            >
+              Schedule a Demo
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#1B262F]">
+      <div
+        class="xl:container mx-auto px-3 flex justify-between items-center py-8 max-sm:flex-col"
+      >
+        <div class="footer__pages flex gap-[64px] max-sm:flex-col max-sm:gap-0">
+          <a class="max-sm:mb-10" href="#"
+            ><img src="images/logo__footer.svg" alt="logo"
+          /></a>
+          <ul
+            class="flex gap-[40px] items-center max-sm:flex-col max-sm:gap-[31px] max-sm:mb-10"
+          >
+            <li>
+              <a
+                class="text-[#FBFCFE] text-[15px] leading-[18px] font-bold opacity-70 hover:opacity-100"
+                href="#"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#FBFCFE] text-[15px] leading-[18px] font-bold opacity-70 hover:opacity-100"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#FBFCFE] text-[15px] leading-[18px] font-bold opacity-70 hover:opacity-100"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__socials flex gap-6">
+          <a target="_blank" href="https://www.facebook.com/zuck/?locale=ru_RU"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="hover:fill-[#DA6D97]"
+                id="Path"
+                d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z"
+                fill="#FBFCFE"
+              />
+            </svg>
+          </a>
+          <a
+            target="_blank"
+            href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            ><svg
+              width="24"
+              height="20"
+              viewBox="0 0 24 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="hover:fill-[#DA6D97]"
+                id="Path"
+                d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705Z"
+                fill="#FBFCFE"
+              />
+            </svg>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/feed/"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="hover:fill-[#DA6D97]"
+                id="Shape"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M2.4 0H21.6C22.92 0 24 1.08 24 2.4V21.6C24 22.92 22.92 24 21.6 24H2.4C1.08 24 0 22.92 0 21.6V2.4C0 1.08 1.08 0 2.4 0ZM3.6 20.4H7.2V9.6H3.6V20.4ZM5.4 7.56C4.2 7.56 3.24 6.6 3.24 5.4C3.24 4.2 4.2 3.24 5.4 3.24C6.6 3.24 7.56 4.2 7.56 5.4C7.56 6.6 6.6 7.56 5.4 7.56ZM16.8 20.4H20.4V13.56C20.4 11.28 18.48 9.36 16.2 9.36C15.12 9.36 13.8 10.08 13.2 11.04V9.6H9.6V20.4H13.2V14.04C13.2 13.08 14.04 12.24 15 12.24C15.96 12.24 16.8 13.08 16.8 14.04V20.4Z"
+                fill="white"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
